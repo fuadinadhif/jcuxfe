@@ -1,0 +1,23 @@
+#first-div {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#second-div {
+  background-color: yellow;
+  height: 50px;
+  width: 50px;
+}
+
+.box {
+  width: 200px;
+  background-image: url(./screenshot.png);
+  height: 200px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: blue;
+}
