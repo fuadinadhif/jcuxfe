@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <style>
+      #grand-parent {
+        border: 5px dashed blue;
+        overflow-x: scroll;
+      }
+
+      #parent {
+        border: 5px dashed red;
+        display: flex;
+        gap: 12px;
+        width: fit-content;
+      }
+
+      .box-image {
+        width: 200px;
+        height: 75px;
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grand-parent">
+      <div id="parent">
+        <div class="box-image"></div>
+        <div class="box-image"></div>
+        <div class="box-image"></div>
+        <div class="box-image"></div>
+        <div class="box-image"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Absolute Position</title>
+    <style>
+      #parent {
+        /* border: 3px dashed red; */
+        border-width: 3px;
+        border-style: dashed;
+        border-color: red;
+        height: 500vh;
+        position: relative;
+      }
+
+      #children {
+        font-size: 10px;
+        background-color: hotpink;
+        width: 10em;
+        height: 10em;
+        position: absolute;
+        bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="children"></div>
+    </div>
+  </body>
+</html>
