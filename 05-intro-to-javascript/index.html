@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS ft HTML & CSS</title>
+    <style>
+      #title {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title">Welcome to My Paradise</h1>
+    <button id="btn">Change Color!</button>
+    <p>Score: <span id="point">0</span></p>
+    <button id="btn-score">Add Score</button>
+
+    <script>
+      const title = document.getElementById("title");
+      const btn = document.getElementById("btn");
+      const point = document.getElementById("point");
+      const btnScore = document.getElementById("btn-score");
+
+      btn.addEventListener("click", () => {
+        title.style.color = "blue";
+      });
+
+      let score = 0;
+      btnScore.addEventListener("click", () => {
+        score = score + 1;
+        point.textContent = score;
+      });
+
+      if (false) {
+        btn.style.backgroundColor = "red";
+      } else {
+        btn.style.backgroundColor = "blue";
+      }
+    </script>
+  </body>
+</html>
