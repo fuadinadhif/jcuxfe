@@ -19,6 +19,10 @@ functionName(argument)
 /* --------------------------------- EXAMPLE -------------------------------- */
 console.log(1_000_000 - 50_000 - (1_000_000 * 10) / 100);
 console.log(5_000_000 - 10_000 - (1_000_000 * 5) / 100);
+console.log(5_000_000 - 10_000 - (1_000_000 * 5) / 100);
+console.log(5_000_000 - 10_000 - (1_000_000 * 5) / 100);
+console.log(5_000_000 - 10_000 - (1_000_000 * 5) / 100);
+console.log(5_000_000 - 10_000 - (1_000_000 * 5) / 100);
 
 function calculateDiscount(originalPrice, coupunNominal, discountNominal) {
   return (
@@ -45,3 +49,12 @@ let result2 =
   originalPrice - coupunNominal - (originalPrice * discountNominal) / 100;
 
 console.log(result2);
+
+/* ---------------------------------- NOTES --------------------------------- */
+function additional(number1, number2) {
+  const result = number1 + number2;
+
+  return result;
+}
+
+console.log(additional(10, 20));
