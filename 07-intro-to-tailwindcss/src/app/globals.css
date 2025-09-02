@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/*
+.text-yellow-500 {
+  color: yellow
+}
+
+.font-bold {
+  font-weight: bold
+}
+*/
+
+.title {
+  color: blue;
+  font-weight: bold;
+}
