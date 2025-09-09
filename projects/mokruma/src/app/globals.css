@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: hsl(11, 69%, 43%);
+  --color-lightgray: hsl(0, 0%, 97%);
+  --font-instrument-sans: "Instrument Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
