@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+
+  --text-h2: 56px;
+  --text-h2--line-height: 64px;
+  --text-h2--letter-spacing: 0;
+  --text-h2--font-weight: 600;
+
+  --text-h3: 28px;
+  --text-h3--line-height: 36px;
+  --text-h3--letter-spacing: 0;
+  --text-h3--font-weight: 600;
+
+  --text-h4: 20px;
+  --text-h4--line-height: 28px;
+  --text-h4--letter-spacing: 0;
+  --text-h4--font-weight: 600;
+
+  --text-b1: 18px;
+  --text-b1--line-height: 141%;
+  --text-b1--letter-spacing: 0;
+  --text-b1--font-weight: 400;
+
+  --color-old-brown-1: #84592c;
+  --color-brown-1: #4c2b08;
+  --color-brown-6: #e7dfd6;
+
+  --shadow-custom: 0px 4px 10.6px 0px rgba(0, 0, 0, 0.33);
+}
