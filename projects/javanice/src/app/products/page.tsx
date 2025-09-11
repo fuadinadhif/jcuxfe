@@ -1,10 +1,18 @@
+import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 
-export default function Product() {
+export default function Products() {
   return (
-    <main>
-      <Navbar />
-      <h2>Product Page</h2>
-    </main>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main className="bg-brown-6 min-h-screen"></main>
+      <footer className="max-w-[1312px] w-full mx-auto">
+        <h1 className="font-zain text-[42px] leading-[150%]">
+          <Link href="/">Javanice</Link>
+        </h1>
+      </footer>
+    </>
   );
 }
