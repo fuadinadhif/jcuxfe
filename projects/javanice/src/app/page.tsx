@@ -4,6 +4,46 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-brown-6">
+      <nav className="max-w-[1312px] w-full mx-auto flex justify-between items-center">
+        <h1 className="font-zain">
+          <Link href="/" className="font-zain text-[80px] leading-[150%]">
+            Javanice
+          </Link>
+        </h1>
+        <ul className="flex gap-[76px]">
+          <li>
+            <Link href="/" className="text-h4">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/products" className="text-h4">
+              Product
+            </Link>
+          </li>
+          <li>
+            <Link className="text-h4" href="/services">
+              Service
+            </Link>
+          </li>
+          <li>
+            <Link className="text-h4" href={"/about"}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link className="text-h4" href={"/contact"}>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link className="text-h4" href={"/blog"}>
+              Blog
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
       <section className="min-h-screen py-[80px] px-[16px] grid place-items-center">
         <div className="max-w-[1312px] w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center">
           {/* Image for desktop */}
@@ -68,6 +108,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section></section>
+      <section></section>
+      <section></section>
     </main>
   );
 }
