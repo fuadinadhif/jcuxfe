@@ -1,48 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { Navbar } from "@/components/navbar";
+
 export default function Home() {
   return (
     <main className="bg-brown-6">
-      <nav className="max-w-[1312px] w-full mx-auto flex justify-between items-center">
-        <h1 className="font-zain">
-          <Link href="/" className="font-zain text-[80px] leading-[150%]">
-            Javanice
-          </Link>
-        </h1>
-        <ul className="flex gap-[76px]">
-          <li>
-            <Link className="text-h4 text-old-brown-1" href="/">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link className="text-h4 text-old-brown-1" href="/products">
-              Product
-            </Link>
-          </li>
-          <li>
-            <Link className="text-h4 text-old-brown-1" href="/services">
-              Service
-            </Link>
-          </li>
-          <li>
-            <Link className="text-h4 text-old-brown-1" href={"/about"}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link className="text-h4 text-old-brown-1" href={"/contact"}>
-              Contact
-            </Link>
-          </li>
-          <li>
-            <Link className="text-h4 text-old-brown-1" href={"/blog"}>
-              Blog
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
 
       <section className="min-h-screen py-[80px] px-[16px] grid place-items-center">
         <div className="max-w-[1312px] w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 place-items-center">
